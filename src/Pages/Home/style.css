@@ -1,26 +1,26 @@
-@import "tailwindcss";
+  @import "tailwindcss";
 
-#global-home {
-  margin: 0;
-  padding: 0;
-  background-image: url('/src/assets/background.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  font-family: 'Roboto', sans-serif;  
-  min-height: 100vh;
-}
+  #global-home {
+    margin: 0;
+    padding: 0;
+    background-image: url('/src/assets/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;  
+    min-height: 100vh;
+  }
 
-#global-home::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.6); /* controla a opacidade */
-  z-index: 0;
-}
-  
-/* .color1 {color: #26262a;}
-.color2 {color: #454348;}
-.color3 {color: #6d736d;}
-.color4 {color: #adafa8;}
-.color5 {color: #f8f7f3;} */
+  #global-home::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    z-index: 0;
+  }
+    
+  /* .color1 {color: #26262a;}
+  .color2 {color: #454348;}
+  .color3 {color: #6d736d;}
+  .color4 {color: #adafa8;}
+  .color5 {color: #f8f7f3;} */
