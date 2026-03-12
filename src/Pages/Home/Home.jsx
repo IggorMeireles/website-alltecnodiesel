@@ -18,7 +18,7 @@ function Home() {
             <NavLink to="/" className="hover:underline z-20 active:scale-95 active:opacity-50">Página Inicial</NavLink>
             <NavLink to="/sobre-nos" className="hover:underline z-20 active:scale-95 active:opacity-50">Sobre Nós</NavLink>
             <NavLink to="/localizacao" className="hover:underline z-20 active:scale-95 active:opacity-50">Localização</NavLink>
-            <NavLink to="/" className="hover:underline z-20 active:scale-95 active:opacity-50">Entre em Contato</NavLink>
+            <NavLink to="/entre-em-contato" className="hover:underline z-20 active:scale-95 active:opacity-50">Entre em Contato</NavLink>
           </nav>
 
         </div>
